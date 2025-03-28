@@ -36,7 +36,7 @@
         </thead>
         <tbody>
           <tr v-for="(item, index) in resultados" :key="index">
-            <td>{{ index }}</td>
+            <td>{{ index + 1 }}</td>
             <td>{{ item.Registro_ANS }}</td>
             <td>{{ item.CNPJ }}</td>
             <td>{{ item.Razao_Social }}</td>
