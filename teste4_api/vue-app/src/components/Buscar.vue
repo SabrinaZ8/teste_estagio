@@ -61,7 +61,7 @@
         </tbody>
       </table>
     </div>
-    <p>Nenhum resultado encontrado.</p>
+    <p v-if="resultados.length === 0">Nenhum resultado.</p>
   </div>
 </template>
 
@@ -99,11 +99,13 @@ export default {
 h1 {
   font-size: 40px;
 }
+
 .div-input {
   margin: 100px 10px;
 }
 
-input, button {
+input,
+button {
   padding: 10px;
 }
 
