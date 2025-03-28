@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "2fcf3992-4174-4947-b77e-9d83ecdc3547",
+		"name": "API operadoras",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43570083",
+		"_collection_link": "https://sabrina-165569.postman.co/workspace/f91fac6a-63be-4613-8d30-fcff469fa001/collection/43570083-2fcf3992-4174-4947-b77e-9d83ecdc3547?action=share&source=collection_link&creator=43570083"
+	},
+	"item": [
+		{
+			"name": "Todas operadoras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}",
+					"host": [
+						"{{baseUrl}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filtrar operadoras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}?query=saude",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "saude"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filtrar operadoras com limite",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}?query=saude&limit=10",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "saude"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://127.0.0.1:5000/buscar",
+			"type": "string"
+		}
+	]
+}
