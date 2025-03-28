@@ -78,6 +78,7 @@ export default {
   methods: {
     async buscar() {
       if (this.query.trim() === '') return;
+      this.query = this.query.trim().replace(/\s+/g, ' ');
       try {
         const response = await axios.get(`http://127.0.0.1:5000/buscar`, {
           params: {
