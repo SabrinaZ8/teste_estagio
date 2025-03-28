@@ -15,7 +15,7 @@ def buscar():
     limit = int(request.args.get('limit', 10))
 
     mask = df.apply(
-            lambda col: col.astype(str).str.lower().str.contains(termo, na=False)
+            lambda col: col.astype(str).str.lower().str.contains(termo, na=False, case=False)
             ).any(axis=1)
         
     resultados = df[mask].head(limit).to_dict(orient='records')
