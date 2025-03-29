@@ -21,7 +21,7 @@ Para rodar localmente, siga os passos abaixo:
    cd teste_estagio/teste1_webscraping
 4. Execute para extrair e compactar:
    ```bash
-   python web_scrapping.py
+   python web_scraping.py
 
 ## 2. Teste transformação de dados
 
