@@ -1,5 +1,28 @@
 # Teste Estágio
+
 ## 1. Teste web scraping
+
+### Descrição
+
+Este teste foi desenvolvido em **Python** para realizar a extração de arquivos PDF do site da ANS e compactá-los.
+
+### Como testar
+
+Para rodar localmente, siga os passos abaixo:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/SabrinaZ8/teste_estagio
+2. Instale as dependências:
+   ```bash
+    pip install -r requirements.txt
+3. Navegue até o diretório:
+   ```bash
+   cd teste_estagio/teste1_webscraping
+4. Execute para extrair e compactar:
+   ```bash
+   python web_scrapping.py
+
 ## 2. Teste transformação de dados
 
 
