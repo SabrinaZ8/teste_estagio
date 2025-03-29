@@ -94,7 +94,10 @@ Para rodar localmente, siga os passos abaixo:
 6. Navegue até o diretório do front-end:
    ```bash
    cd teste4_api/vue-app
-7. Inicie o pp Vue:
+7. Instale as dependências
+   ```bash
+   npm i
+8. Inicie o pp Vue:
    ```bash
    npm run dev
 
