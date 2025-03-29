@@ -91,7 +91,7 @@ Para rodar localmente, siga os passos abaixo:
 5. Inicie o servidor:
    ```bash
    python server.py
-6. Navegue até o diretório do front-end:
+6. Navegue até o diretório do front-end em outro terminal:
    ```bash
    cd teste4_api/vue-app
 7. Instale as dependências
