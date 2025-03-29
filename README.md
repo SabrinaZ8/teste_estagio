@@ -25,6 +25,7 @@ Para rodar localmente, siga os passos abaixo:
 
 ## 2. Teste transformação de dados
 
+Não realizado.
 
 ## 3. Teste de Banco de Dados
 
