@@ -15,13 +15,17 @@ Este teste consiste em manipular dados disponibilizados pela ANS, criando tabela
 
 ### Imagens
 
-#### Tabelas
+Tabela Operadoras de Plano de Saúde Ativas
 ![Table Operadoras Select](/screenshots/table-operadoras-select.png)
-![Table Demonstracoes Contabeis Select](/screenshots)
 
-#### Queries
-![Query Despesas Trimestre](/screenshots)
-![Query Despesas 2024](/screenshots)
+Tabela Demonstrações Contábeis
+![Table Demonstracoes Contabeis Select](/screenshots/table-demo-contabeis-select.png)
+
+Consulta 10 operadoras com maiores despesas no último trimestre
+![Query Despesas Trimestre](/screenshots/query-despesas-trimestre.png)
+
+Consulta 10 operadoras com maiores despesas no último ano
+![Query Despesas 2024](/screenshots/query-despesas-2024.png)
 
 ## 4. Teste de API
 
