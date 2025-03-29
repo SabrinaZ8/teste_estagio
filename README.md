@@ -69,3 +69,26 @@ Desenvolvimento de uma interface web em **Vue.js** que interage com um servidor 
 
 ![Interface Vue](/screenshots/interface-vue.png)
 
+### Como testar
+
+Para rodar localmente, siga os passos abaixo:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/SabrinaZ8/teste_estagio
+2. Instale as dependências:
+   ```bash
+    pip install -r requirements.txt
+3. Navegue até o diretório:
+   ```bash
+   cd teste_estagio/teste4_api/backend
+4. Inicie o servidor
+   ```bash
+   python server.py
+4. Navegue até o diretório do front-end:
+   ```bash
+   cd teste_estagio/teste4_api/vue-app
+6. Inicie o pp Vue
+   ```bash
+   npm run dev
+
