@@ -53,8 +53,6 @@ Consulta 10 operadoras com maiores despesas no último trimestre
 Consulta 10 operadoras com maiores despesas no último ano
 ![Query Despesas 2024](/screenshots/query-despesas-2024.png)
 
-### Imagens
-
 ## 4. Teste de API
 
 ### Descrição
