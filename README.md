@@ -13,13 +13,16 @@ Para rodar localmente, siga os passos abaixo:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/SabrinaZ8/teste_estagio
-2. Instale as dependências:
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd teste_estagio
+3. Instale as dependências:
    ```bash
     pip install -r requirements.txt
-3. Navegue até o diretório:
+4. Navegue até o diretório:
    ```bash
    cd teste_estagio/teste1_webscraping
-4. Execute para extrair e compactar:
+5. Execute para extrair e compactar:
    ```bash
    python web_scraping.py
 
