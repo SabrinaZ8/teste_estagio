@@ -1,6 +1,8 @@
 # Teste Estágio
 ## 1. Teste web scraping
 ## 2. Teste transformação de dados
+
+
 ## 3. Teste de Banco de Dados
 
 ### Descrição
@@ -25,7 +27,7 @@ Consulta 10 operadoras com maiores despesas no último trimestre
 ![Query Despesas Trimestre](/screenshots/query-despesas-trimestre.png)
 
 Consulta 10 operadoras com maiores despesas no último ano
-![Query Despesas 2024](/screenshots/query-despesas-2024.png)
+### Imagens
 
 ## 4. Teste de API
 
@@ -38,4 +40,8 @@ Desenvolvimento de uma interface web em **Vue.js** que interage com um servidor 
 - Construí um **servidor Flask** para processar buscas nos cadastros das operadoras.
 - Desenvolvi uma interface interativa com **Vue.js** para consumo da API.
 - Realizei testes dos endpoints utilizando **Postman** para validar os retornos.
+
+### Imagens
+
+![Interface Vue](/screenshots/interface-vue.png)
 
