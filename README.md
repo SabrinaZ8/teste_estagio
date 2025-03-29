@@ -21,7 +21,7 @@ Para rodar localmente, siga os passos abaixo:
     pip install -r requirements.txt
 4. Navegue até o diretório:
    ```bash
-   cd teste_estagio/teste1_webscraping
+   cd teste1_webscraping
 5. Execute para extrair e compactar:
    ```bash
    python web_scraping.py
@@ -79,19 +79,22 @@ Para rodar localmente, siga os passos abaixo:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/SabrinaZ8/teste_estagio
-2. Instale as dependências:
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd teste_estagio
+3. Instale as dependências:
    ```bash
     pip install -r requirements.txt
-3. Navegue até o diretório:
+4. Navegue até a pasta do servidor:
    ```bash
-   cd teste_estagio/teste4_api/backend
-4. Inicie o servidor
+   cd teste4_api/backend
+5. Inicie o servidor:
    ```bash
    python server.py
-4. Navegue até o diretório do front-end:
+6. Navegue até o diretório do front-end:
    ```bash
-   cd teste_estagio/teste4_api/vue-app
-6. Inicie o pp Vue
+   cd teste4_api/vue-app
+7. Inicie o pp Vue:
    ```bash
    npm run dev
 
